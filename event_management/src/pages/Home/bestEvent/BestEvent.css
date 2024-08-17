@@ -1,0 +1,44 @@
+.main{
+    background-image: url('../../../assets/wine-glasses-served-table-with-lightening-candles-table-number-it.jpg');
+    width: 100%;
+    height: 55vh;
+}
+
+.glass{
+    background-color: rgba(255, 255, 255, 0.171);
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    z-index: 3;
+    backdrop-filter: blur(10px);
+}
+
+.circle{
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    background-color: white;
+}
+
+.bgColor{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 100%);
+}
+
+.hr_line{
+    stroke-width: 1px;
+    stroke: #344E71;
+    height: 3px;
+}
+
+.btn-bg-color{
+    background: var(--Linear, linear-gradient(277deg, #00D4FC 6.75%, #00FEE3 95.73%));
+}
+
+.stagger:hover .alphabet{
+    color: blue;
+}
+
+.alphabet{
+    transition: all ease-in-out;
+    transition-duration: 50ms;
+}
